@@ -28,9 +28,9 @@ var local_data = {}
 // var db = firebase.database().ref('/');
 // db.on('value',function(snapshot){
 //    local_data = snapshot.val();
-//    // fb.setState(local_data)
+//    fb.setState(local_data)
 // });
-
+//
 // var database = firebase.database();
 // database.ref('/data').once('value').then(function(snapshot) {
 //   var local_data = (snapshot.val());

@@ -34,7 +34,7 @@ import store from '../../store'
 
 class Full extends Component {
   constructor(props) {
-    
+
     super(props);
 
   }
@@ -45,8 +45,6 @@ class Full extends Component {
      }
   }
 
-
- 
   render() {
     return (
 
@@ -72,9 +70,9 @@ class Full extends Component {
                 <Route path="/icons/font-awesome" name="Font Awesome" component={FontAwesome}/>
                 <Route path="/icons/simple-line-icons" name="Simple Line Icons" component={SimpleLineIcons}/>
                 <Route path="/widgets" name="Widgets" component={Widgets}/>
-                
+
                 <Route path="/charts_original" name="Charts" component={Charts} />
-                
+
 
                 <Route path="/charts" name="Charts" render={props => <Charts local_data={this.state.local_data} {...props} />} />
                 <Redirect from="/" to="/dashboard"/>

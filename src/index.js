@@ -22,7 +22,7 @@ import '../scss/core/_dropdown-menu-right.scss'
 
 // Initialize Firebase
 // TODO: Replace with your project's customized code snippet
-  
+
 var local_data = {}
 
 // var db = firebase.database().ref('/');
@@ -47,12 +47,12 @@ import Page500 from './views/Pages/Page500/'
 //window.location.reload();
 
 var config = {
-    apiKey: "AIzaSyBPweAHcP4em0PYh8XWzEqjNhTk3OBNS5I",
-    authDomain: "dashboard-dev-8b843.firebaseapp.com",
-    databaseURL: "https://dashboard-dev-8b843.firebaseio.com",
-    projectId: "dashboard-dev-8b843",
-    storageBucket: "dashboard-dev-8b843.appspot.com",
-    messagingSenderId: "264557605189"
+    apiKey: "AIzaSyBAAfsFWObEO745uH7hXXTPfa4gNtCiJKI",
+    authDomain: "firefirebase3103.firebaseapp.com",
+    databaseURL: "https://firefirebase3103.firebaseio.com",
+    projectId: "firefirebase3103",
+    storageBucket: "firefirebase3103.appspot.com",
+    messagingSenderId: "1088586648162"
   };
 firebase.initializeApp(config);
 
@@ -71,7 +71,7 @@ db.ref('/').on('value', data => {
 
 
 ReactDOM.render((
-  
+
   <div>
   <HashRouter>
   <Provider store={store}>
@@ -88,5 +88,5 @@ ReactDOM.render((
   </Provider>
   </HashRouter>
   </div>
-  
+
 ), document.getElementById('root'));
